@@ -7,9 +7,12 @@ public class Notification {
 		System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
 		ChromeOptions co = new ChromeOptions();
 		co.addArguments("--disable-notifications");
+		co.addArguments("headless");
 		WebDriver driver = new ChromeDriver(co);
 		driver.manage().window().maximize();
 		driver.get("https://www.redbus.in/");
+		
+		System.out.println("hi");
 	}
 
 }

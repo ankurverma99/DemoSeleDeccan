@@ -20,7 +20,7 @@ public class Google {
 		for (WebElement sugg : suggs) {
 			System.out.println(sugg.getText());
 		}
-		hiii......!
+		System.out.println("Hi from eclipes");
 	}
 
 }
