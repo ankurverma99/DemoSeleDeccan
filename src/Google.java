@@ -20,7 +20,7 @@ public class Google {
 		for (WebElement sugg : suggs) {
 			System.out.println(sugg.getText());
 		}
-		suggs.get(2).click();
+		//hii i m git hub
 	}
 
 }
